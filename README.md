@@ -9,15 +9,13 @@
 
 
 [<img align="center" alt="mycupofit.herokuapp.com" src="/images/1.png" />](https://mycupofit.herokuapp.com)
-____
+
 [Перейти на сайт](https://mycupofit.herokuapp.com)
 
 [Посмотеть презентацию проекта](https://drive.google.com/file/d/1ZSUmlATFu3Qe0gyXLtAjjZMySQJJRxja/view?usp=sharing)
-____
 
 MY CUP OF IT - это web-приложение для новичков в IT для поиска экспертов области и проведения информационного собеседования.
 Информационное собеседование — это неофициальная беседа соискателя с профессионалом, работающим в соответствующей сфере.
-____
 
 ## Стек:
 
@@ -35,32 +33,34 @@ ____
 - Фронтенд: TypeScript, React, Redux(saga), Axios, Ant Design, Styled-components, EmailJS
 - Бекенд: Node.js, Express, PostgreSQL, Sequelize ORM, Bcrypt, Multer
 
+____
+
 ## Пробежимся по функционалу
 
 На главной странице расположен блок, в котором подробнее рассказывается о концепции информационных 
 собеседований и шаги для подготовки к ним
-____
+
 <img align="center" alt="mycupofit.herokuapp.com" src="/images/2.png" />
 
 На отдельной странице выведен список всех пользователей с возможностью сортировки по роли, компании и технологиям
 Таким образом, каждый пользователь может найти себе подходящего собеседника для интервью
-____
+
 <img align="center" alt="mycupofit.herokuapp.com" src="/images/3.png" />
 
 Нажимая на кнопку постучаться - открывается модальное окно с возможностью запросить встречу
-____
+
 <img align="center" alt="mycupofit.herokuapp.com" src="/images/3-5.png" />
 
 Также реализован личный кабинет
-____
+
 <img align="center" alt="mycupofit.herokuapp.com" src="/images/6.png" />
 
 С возможностью управлять встечами и календарем
-____
+
 <img align="center" alt="mycupofit.herokuapp.com" src="/images/4.png" />
 
 И редактированием профиля
-____
+
 <img align="center" alt="mycupofit.herokuapp.com" src="/images/7.png" />
 
 ____
