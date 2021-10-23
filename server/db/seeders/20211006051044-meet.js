@@ -1,0 +1,205 @@
+module.exports = {
+  up: async (queryInterface, Sequelize) => {
+    await queryInterface.bulkInsert('Meets', [
+      {
+        id: 'bCko3HJhVm',
+        interviewerId: '145976',
+        mentorId: '206802',
+        date: '16.10.2021 15:00',
+        comment: 'Обсудим работу в компании?',
+        status: 'pending',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: 'd0zpm7Wtrt',
+        interviewerId: '14597',
+        mentorId: '206802',
+        date: '07.10.2021 19:00',
+        comment: 'Обсудим работу в компании?',
+        status: 'completed',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: 'b73c401b5c',
+        interviewerId: '14598',
+        mentorId: '206802',
+        date: '20-10-2021 19:00',
+        comment: 'Обсудим работу в компании?',
+        status: 'pending',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: 'd0zpm7W4rt',
+        interviewerId: '14599',
+        mentorId: '206802',
+        date: '07.10.2021 19:00',
+        comment: 'Обсудим работу в компании?',
+        status: 'cancelled',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: 'b73c401b53',
+        interviewerId: '14599',
+        mentorId: '206802',
+        date: '15-10-2021 19:00',
+        comment: 'Обсудим работу в компании?',
+        status: 'accepted',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: 'b73c401b',
+        interviewerId: '145982',
+        mentorId: '206802',
+        date: '25-10-2021 19:00',
+        comment: 'Обсудим работу в компании?',
+        status: 'accepted',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: '1',
+        interviewerId: '145976',
+        mentorId: '537982',
+        date: '16.10.2021 15:00',
+        comment: 'Обсудим работу в компании?',
+        status: 'pending',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: '2',
+        interviewerId: '14597',
+        mentorId: '537982',
+        date: '07.10.2021 19:00',
+        comment: 'Обсудим работу в компании?',
+        status: 'completed',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: '3',
+        interviewerId: '14598',
+        mentorId: '537982',
+        date: '20-10-2021 19:00',
+        comment: 'Обсудим работу в компании?',
+        status: 'pending',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: '4',
+        interviewerId: '14599',
+        mentorId: '537982',
+        date: '07.10.2021 19:00',
+        comment: 'Обсудим работу в компании?',
+        status: 'cancelled',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: '5',
+        interviewerId: '14599',
+        mentorId: '537982',
+        date: '15-10-2021 19:00',
+        comment: 'Обсудим работу в компании?',
+        status: 'accepted',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: '6',
+        interviewerId: '145982',
+        mentorId: '537982',
+        date: '25-10-2021 19:00',
+        comment: 'Обсудим работу в компании?',
+        status: 'accepted',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: '7',
+        interviewerId: '145976',
+        mentorId: '589982',
+        date: '16.10.2021 15:00',
+        comment: 'Обсудим работу в компании?',
+        status: 'pending',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: '8',
+        interviewerId: '14597',
+        mentorId: '589982',
+        date: '07.10.2021 19:00',
+        comment: 'Обсудим работу в компании?',
+        status: 'completed',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: '9',
+        interviewerId: '14598',
+        mentorId: '589982',
+        date: '20-10-2021 19:00',
+        comment: 'Обсудим работу в компании?',
+        status: 'pending',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: '10',
+        interviewerId: '14599',
+        mentorId: '589982',
+        date: '07.10.2021 19:00',
+        comment: 'Обсудим работу в компании?',
+        status: 'cancelled',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: '11',
+        interviewerId: '14599',
+        mentorId: '589982',
+        date: '15-10-2021 19:00',
+        comment: 'Обсудим работу в компании?',
+        status: 'accepted',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        id: '12',
+        interviewerId: '145982',
+        mentorId: '589982',
+        date: '25-10-2021 19:00',
+        comment: 'Обсудим работу в компании?',
+        status: 'accepted',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+    ], {});
+    /**
+     * Add seed commands here.
+     *
+     * Example:
+     * await queryInterface.bulkInsert('People', [{
+     *   name: 'John Doe',
+     *   isBetaMember: false
+     * }], {});
+    */
+  },
+
+  down: async (queryInterface, Sequelize) => {
+    await queryInterface.bulkDelete('Meets', null, {});
+    /**
+     * Add commands to revert seed here.
+     *
+     * Example:
+     * await queryInterface.bulkDelete('People', null, {});
+     */
+  },
+};

@@ -1,0 +1,38 @@
+.conteinerFilters{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 10px;
+ /* width: 90%; */
+}
+.conteinerSiorch{
+   /* width: 800px; */
+    margin-right: 1rem;
+    min-width: 200px;
+width: 20%;
+    max-width: 250px;
+
+}
+.conteinerUserCand{
+  display: flex;
+  flex-direction:column;
+  width: 100%;
+}
+.conteinerUser{
+display: flex;
+flex-wrap: wrap;
+}
+.filterBlock{
+  display: flex;
+  justify-content: space-between;
+}
+.searchBlock{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.headerUserCard{
+  margin-left: 4rem;
+}
+.headerSearch{
+  margin-bottom: 25px;
+}

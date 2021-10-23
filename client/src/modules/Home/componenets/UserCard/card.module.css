@@ -1,0 +1,15 @@
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: smaller;
+}

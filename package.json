@@ -1,0 +1,23 @@
+{
+  "name": "my-cup-of-it",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",  
+  "scripts": {
+    "build": "cd client && yarn && yarn build",
+    "start": "cd server && npm i && npx sequelize-cli db:migrate && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shvartem/my-cup-of-it.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shvartem/my-cup-of-it/issues"
+  },
+    "engines": {
+    "yarn": "1.22.11"
+  },
+  "homepage": "https://github.com/shvartem/my-cup-of-it#readme"
+}
