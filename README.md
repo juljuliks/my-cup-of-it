@@ -18,7 +18,7 @@
 > Информационное собеседование — это неофициальная беседа соискателя с профессионалом, работающим в соответствующей сфере.
 <br/>
 
-# Стек:
+## Стек:
 
 [<img align="left" alt="JavaScript" width="32px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />][git]
 [<img align="left" alt="TypeScript" width="32px" src="https://img.icons8.com/color/48/000000/typescript.png"/>][git]
@@ -34,7 +34,7 @@
 - Фронтенд: TypeScript, React, Redux(saga), Axios, Ant Design, Styled-components, EmailJS
 - Бекенд: Node.js, Express, PostgreSQL, Sequelize ORM, Bcrypt, Multer
 
-### Пробежимся по функционалу
+## Пробежимся по функционалу
 
 > На главной странице расположен блок, в котором подробнее рассказывается о концепции информационных 
 > собеседований и шаги для подготовки к ним
